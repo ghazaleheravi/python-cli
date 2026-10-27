@@ -9,7 +9,7 @@ requires-python = ">=3.9"
 authors = [
   { name="Ghazaleh Heravi", email="ghazaleh.heravi@gmail.com" },
 ]
-description = "Example package for a CLI"
+description = "Python CLI tool"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
@@ -17,7 +17,7 @@ classifiers = [
   "Development Status :: 3 - Alpha",
   "Programming Language :: Python"
 ]
-packages = ["greetings"]
+packages = ["text_processing"]
 
 [project.scripts]
 cli_example = "text_processing.cli:cli_example"

@@ -40,7 +40,7 @@ def handle_print():
 
 def cli_example (): 
   # 1. Initialize the parser
-  parser = argparse.ArgumentParser(description="Text processing tool.")
+  parser = argparse.ArgumentParser(description="Text processing tool")
   subparsers = parser.add_subparsers(dest='command')
 
   # 2. Define the arguments you want to accept
